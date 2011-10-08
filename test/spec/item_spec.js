@@ -38,5 +38,7 @@ describe('item', function() {
     expect(item.description).toEqual('yummy');
     expect(item.name).toEqual('noodles');
   });
+  
+  it('should be copyable');
 
 });
