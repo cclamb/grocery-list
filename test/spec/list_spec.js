@@ -1,5 +1,12 @@
 var gitit = require('../../lib/gitit');
 
+function validateValues(list, values) {
+  expect(list).toBeDefined();
+	for (var i = 0; i < list.values.length; i++) {
+		expect(list.values[i]).toEqual(values[i]);
+	}
+}
+
 describe('list', function() {
 	
   it('should be creatable without args', function() {
@@ -15,30 +22,30 @@ describe('list', function() {
   it('should be creatable with an array of items', function() {
 		var values = [1,2,3,4,5];
 		var l = new gitit.List({values: values});
-		expect(l).toBeDefined();
-		for (var i = 0; i < expect.length; i++) {
-			expect(l[i]).toEqual(values[i]);
-		}
+		validateValues(l, values);
 	});
 	
   it('should be creatable with a name and item array', function() {
-	
+	  var values = [1,2,3,4,5];
+		var l = new gitit.List({values: values, name: 'bar'});
+		validateValues(l, values);
+		expect(l.name).toEqual('bar');
 	});
 	
 	it('should support adding items', function() {
-		
+		fail();
 	});
 	
 	it('should support removing items', function() {
-		
+		fail();
 	});
 	
 	it('should support listing all items', function() {
-		
+		fail();
 	});
 	
 	it('should be convertable to clear JSON', function() {
-		
+		fail();
 	});
 	
 });
