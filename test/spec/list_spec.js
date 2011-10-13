@@ -33,19 +33,19 @@ describe('list', function() {
 	});
 	
 	it('should support adding items', function() {
-		fail();
+		this.fail(Error('foo'));
 	});
 	
 	it('should support removing items', function() {
-		fail();
+		this.fail(Error('foo'));
 	});
 	
 	it('should support listing all items', function() {
-		fail();
+		this.fail(Error('foo'));
 	});
 	
 	it('should be convertable to clear JSON', function() {
-		fail();
+		this.fail(Error('foo'));
 	});
 	
 });
