@@ -32,20 +32,12 @@ describe('list', function() {
 		expect(l.name).toEqual('bar');
 	});
 	
-	it('should support adding items', function() {
-		fail();
-	});
+	xit('should support adding items', function() {} );
 	
-	it('should support removing items', function() {
-		fail();
-	});
+	xit('should support removing items', function() {});
 	
-	it('should support listing all items', function() {
-		fail();
-	});
+	xit('should support listing all items', function() {});
 	
-	it('should be convertable to clear JSON', function() {
-		fail();
-	});
+	xit('should be convertable to clear JSON', function() {});
 	
 });
