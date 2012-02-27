@@ -32,6 +32,7 @@ describe('list', function() {
 		expect(l.name).toEqual('bar');
 	});
 	
+<<<<<<< HEAD
 	xit('should support adding items', function() {} );
 	
 	xit('should support removing items', function() {});
@@ -39,5 +40,22 @@ describe('list', function() {
 	xit('should support listing all items', function() {});
 	
 	xit('should be convertable to clear JSON', function() {});
+=======
+	it('should support adding items', function() {
+		this.fail(Error('foo'));
+	});
+	
+	it('should support removing items', function() {
+		this.fail(Error('foo'));
+	});
+	
+	it('should support listing all items', function() {
+		this.fail(Error('foo'));
+	});
+	
+	it('should be convertable to clear JSON', function() {
+		this.fail(Error('foo'));
+	});
+>>>>>>> 6e8b74a8eed4427cf290b85344f73e5421643c12
 	
 });
